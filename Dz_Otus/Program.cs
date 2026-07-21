@@ -196,7 +196,7 @@ namespace Dz_3_Prosto_al
                     Console.WriteLine("Неизвестная команда. Используйте /help для справки.");
 
                 }
-                Console.Write("Введите команду:   ");
+                Console.Write("Введите команду:    ");
 
             }
         }
