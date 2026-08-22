@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Dz_3_Prosto_al
+namespace Dz_5_Prosto_al
 {
     public class TaskCountLimitException : Exception
     {
