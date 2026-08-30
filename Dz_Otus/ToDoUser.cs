@@ -1,23 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Dz_5_Prosto_al
+namespace Dz
 {
     public class ToDoUser
     {
+
         public Guid UserId { get; }
+        public long TelegramUserId { get; }        // ← НОВОЕ СВОЙСТВО
         public string TelegramUserName { get; }
         public DateTime RegisteredAt { get; }
-        public List<ToDoItem> Tasks { get; }
 
-        public ToDoUser(string telegramUserName)
+        public ToDoUser(long telegramUserId, string telegramUserName)
         {
             UserId = Guid.NewGuid();
+            TelegramUserId = telegramUserId;        // ← СОХРАНЯЕМ ID
             TelegramUserName = telegramUserName;
             RegisteredAt = DateTime.UtcNow;
-            Tasks = new List<ToDoItem>();
         }
-
     }
 }
