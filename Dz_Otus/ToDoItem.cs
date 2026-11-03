@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Dz_5_Prosto_al
+namespace Dz
 {
     public class ToDoItem
     {

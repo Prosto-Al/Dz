@@ -1,10 +1,11 @@
 ﻿using System;
 
-namespace Dz_5_Prosto_al
+namespace Dz
 {
     public class TaskCountLimitException : Exception
     {
         public int MaxTasks { get; }
+
 
         public TaskCountLimitException(int maxTasks)
             : base($"Превышено максимальное количество задач равное {maxTasks}")
