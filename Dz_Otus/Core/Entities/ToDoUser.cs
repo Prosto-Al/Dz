@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Dz
+namespace Dz_Otus.Core.Entities
 {
     public class ToDoUser
     {

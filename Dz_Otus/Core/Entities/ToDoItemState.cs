@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Dz
+namespace Dz_Otus.Core.Entities
 {
     public enum ToDoItemState
     {

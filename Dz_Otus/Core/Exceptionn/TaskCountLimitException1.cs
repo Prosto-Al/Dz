@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Dz
+namespace Dz_Otus.Core.Exceptionn
 {
     public class TaskCountLimitException : Exception
     {
